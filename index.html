@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dehurdle HR Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>HR Dashboard</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Monthly Reports</h2>
+      <div class="report">
+        <canvas id="monthlyReport1"></canvas>
+        <p>Monthly Report 1: Overview of User Engagement</p>
+      </div>
+      <div class="report">
+        <canvas id="monthlyReport2"></canvas>
+        <p>Monthly Report 2: Revenue Growth Analysis</p>
+      </div>
+    </section>
+    <section>
+      <h2>Daily Reports</h2>
+      <div class="report">
+        <canvas id="dailyReport1"></canvas>
+        <p>Daily Report 1: Active Users</p>
+      </div>
+      <div class="report">
+        <canvas id="dailyReport2"></canvas>
+        <p>Daily Report 2: Daily Transactions</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Dehurdle</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
