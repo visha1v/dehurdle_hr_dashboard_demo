@@ -3,11 +3,11 @@ const ctx1 = document.getElementById("monthlyReport1").getContext("2d");
 new Chart(ctx1, {
   type: "bar",
   data: {
-    labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
+    labels: ["Overthinker", "Distractor", "Pessimist", "Pleaser", "Fearful", "Comparer", "Hyper-Emotional", "Procastinator"],
     datasets: [
       {
-        label: "Engagement",
-        data: [20, 30, 50, 40],
+        label: "Wreckers",
+        data: [50,23,31,26,15,46,38,41],
         backgroundColor: "rgba(75, 192, 192, 0.6)"
       }
     ]
@@ -36,11 +36,11 @@ const ctx3 = document.getElementById("dailyReport1").getContext("2d");
 new Chart(ctx3, {
   type: "line",
   data: {
-    labels: ["8 AM", "10 AM", "12 PM", "2 PM", "4 PM", "6 PM"],
+    labels: ["Monday", "Tueday", "Wednesday", "Thursday", "Friday", "Saturday", "Suday"],
     datasets: [
       {
-        label: "Active Users",
-        data: [10, 20, 30, 40, 50, 60],
+        label: "Department Focus Score",
+        data: [45, 55, 49, 62, 68, 30, 38],
         borderColor: "rgba(75, 192, 192, 1)",
         fill: false
       }
@@ -52,11 +52,13 @@ const ctx4 = document.getElementById("dailyReport2").getContext("2d");
 new Chart(ctx4, {
   type: "doughnut",
   data: {
-    labels: ["Success", "Failure"],
+    labels: ["Happy", "Sad", "Angry", "Frustrated", "Depressed"],
     datasets: [
       {
-        data: [80, 20],
-        backgroundColor: ["rgba(54, 162, 235, 0.6)", "rgba(255, 99, 132, 0.6)"]
+        data: [15,19,23,32,11],
+        backgroundColor: ["rgba(54, 162, 235, 0.6)", "rgba(255, 99, 132, 0.6)","rgba(255, 99, 132, 0.6)",
+          "rgba(54, 162, 235, 0.6)",
+          "rgba(255, 206, 86, 0.6)"]
       }
     ]
   }

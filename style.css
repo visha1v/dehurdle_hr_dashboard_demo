@@ -7,8 +7,8 @@ body {
 }
 
 header {
-  background: #D72B6A; /* Primary Theme Color */
-  color: white;
+  background: white; /* Primary Theme Color */
+  color: #D72B6A;
   text-align: center;
   padding: 10px 0;
 }
