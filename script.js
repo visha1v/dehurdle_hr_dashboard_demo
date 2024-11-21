@@ -18,17 +18,21 @@ const ctx2 = document.getElementById("monthlyReport2").getContext("2d");
 new Chart(ctx2, {
   type: "pie",
   data: {
-    labels: ["Thriving", "Moderate", "Surviving"],
+    labels: ["Product A", "Product B", "Product C"],
     datasets: [
       {
-        data: [10, 40, 50],
+        data: [40, 30, 30],
         backgroundColor: [
-          "rgb(60, 179, 113)",
-          "rgb(255, 165, 0)",
-          "rgb(255, 0, 0)"
+          "rgba(255, 99, 132, 0.6)",
+          "rgba(54, 162, 235, 0.6)",
+          "rgba(255, 206, 86, 0.6)"
         ]
       }
     ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true
   }
 });
 
@@ -59,5 +63,9 @@ new Chart(ctx4, {
         backgroundColor: ["rgba(54, 162, 235, 0.6)", "rgba(255, 99, 132, 0.6)"]
       }
     ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true
   }
 });
