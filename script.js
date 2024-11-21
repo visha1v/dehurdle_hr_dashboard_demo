@@ -18,14 +18,14 @@ const ctx2 = document.getElementById("monthlyReport2").getContext("2d");
 new Chart(ctx2, {
   type: "pie",
   data: {
-    labels: ["Product A", "Product B", "Product C"],
+    labels: ["Thriving", "Moderate", "Surviving"],
     datasets: [
       {
-        data: [40, 30, 30],
+        data: [10, 40, 50],
         backgroundColor: [
-          "rgba(255, 99, 132, 0.6)",
-          "rgba(54, 162, 235, 0.6)",
-          "rgba(255, 206, 86, 0.6)"
+          "rgb(60, 179, 113)",
+          "rgb(255, 165, 0)",
+          "rgb(255, 0, 0)"
         ]
       }
     ]
