@@ -73,6 +73,7 @@ footer {
 .report p {
   color: #D72B6A; /* Secondary Theme Color */
   font-weight: bold;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

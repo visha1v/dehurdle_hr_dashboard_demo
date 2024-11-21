@@ -6,7 +6,7 @@ new Chart(ctx1, {
     labels: ["Overthinker", "Distractor", "Pessimist", "Pleaser", "Fearful", "Comparer", "Hyper-Emotional", "Procastinator"],
     datasets: [
       {
-        label: "Wreckers",
+        label: "No. of emplyees with this wrecker",
         data: [50,23,31,26,15,46,38,41],
         backgroundColor: "rgba(75, 192, 192, 0.6)"
       }
@@ -23,9 +23,9 @@ new Chart(ctx2, {
       {
         data: [10, 40, 50],
         backgroundColor: [
-          "rgba(255, 99, 132, 0.6)",
-          "rgba(54, 162, 235, 0.6)",
-          "rgba(255, 206, 86, 0.6)"
+          "rgba(75, 192, 192, 0.6)","rgba(255, 206, 86, 0.6)",
+          "rgba(255, 99, 132, 0.6)"
+          
         ]
       }
     ]
@@ -56,8 +56,8 @@ new Chart(ctx4, {
     datasets: [
       {
         data: [15,19,23,32,11],
-        backgroundColor: ["rgba(54, 162, 235, 0.6)", "rgba(255, 99, 132, 0.6)","rgba(255, 99, 132, 0.6)",
-          "rgba(54, 162, 235, 0.6)",
+        backgroundColor: ["rgba(54, 162, 235, 0.6)", "rgba(255, 99, 132, 0.6)","rgba(75, 192, 192, 1)",
+          "rgba(54, 162, 225, 0.6)",
           "rgba(255, 206, 86, 0.6)"]
       }
     ]
