@@ -38,11 +38,6 @@ h2 {
   box-sizing: border-box;
 }
 
-.report canvas {
-  max-width: 50%; /* Reduce canvas size to half */
-  height: auto;
-  margin: 0 auto; /* Center the canvas horizontally */
-}
 
 canvas {
   max-width: 100%;
