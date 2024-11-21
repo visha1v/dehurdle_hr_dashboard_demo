@@ -3,72 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard with Firebase Authentication</title>
+  <title>Dehurdle HR Dashboard</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <header>
-    <h1>B2B Client Dashboard</h1>
+    <h1>HR Dashboard</h1>
   </header>
-  
   <main>
-    <!-- Signup/Login Containers -->
-    <div id="signup-container">
-      <h2>Sign Up</h2>
-      <input type="email" id="signup-email" placeholder="Enter your email">
-      <input type="password" id="signup-password" placeholder="Enter your password">
-      <button id="signup-button">Sign Up</button>
-      <p>Already have an account? <a id="show-login" href="#">Log In</a></p>
-    </div>
-
-    <div id="login-container">
-      <h2>Log In</h2>
-      <input type="email" id="login-email" placeholder="Enter your email">
-      <input type="password" id="login-password" placeholder="Enter your password">
-      <button id="login-button">Log In</button>
-      <p>Don't have an account? <a id="show-signup" href="#">Sign Up</a></p>
-    </div>
-
-    <!-- Dashboard -->
-    <div id="dashboard" style="display: none;">
-      <h2>Welcome to the Dashboard</h2>
-      <section>
-        <h2>Monthly Reports</h2>
-        <div class="report-container">
-          <div class="report">
-            <canvas id="monthlyReport1"></canvas>
-            <p>Monthly Report 1: User Engagement</p>
-          </div>
-          <div class="report">
-            <canvas id="monthlyReport2"></canvas>
-            <p>Monthly Report 2: Revenue Distribution</p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <h2>Daily Reports</h2>
-        <div class="report-container">
-          <div class="report">
-            <canvas id="dailyReport1"></canvas>
-            <p>Daily Report 1: Active Users</p>
-          </div>
-          <div class="report">
-            <canvas id="dailyReport2"></canvas>
-            <p>Daily Report 2: Daily Transactions</p>
-          </div>
-        </div>
-      </section>
-      <button id="logout-button">Log Out</button>
-    </div>
+    <section>
+      <h2>Monthly Reports</h2>
+      <div class="report">
+        <canvas id="monthlyReport1"></canvas>
+        <p>Monthly Report 1: Overview of User Engagement</p>
+      </div>
+      <div class="report">
+        <canvas id="monthlyReport2"></canvas>
+        <p>Monthly Report 2: Revenue Growth Analysis</p>
+      </div>
+    </section>
+    <section>
+      <h2>Daily Reports</h2>
+      <div class="report">
+        <canvas id="dailyReport1"></canvas>
+        <p>Daily Report 1: Active Users</p>
+      </div>
+      <div class="report">
+        <canvas id="dailyReport2"></canvas>
+        <p>Daily Report 2: Daily Transactions</p>
+      </div>
+    </section>
   </main>
-  
   <footer>
-    <p>&copy; 2024 Your Company</p>
+    <p>&copy; 2024 Dehurdle</p>
   </footer>
-
-  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

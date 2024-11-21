@@ -20,46 +20,12 @@ h2 {
   color: #333;
 }
 
-input {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #0056b3;
-}
-
-.report-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-}
-
 .report {
-  flex: 1 1 calc(50% - 20px);
-  max-width: calc(50% - 20px);
+  margin: 20px 0;
   background: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
 }
 
 canvas {
@@ -67,16 +33,10 @@ canvas {
   height: auto;
 }
 
-@media screen and (max-width: 768px) {
-  .report {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-}
-
 footer {
   text-align: center;
   padding: 10px 0;
   background: #333;
   color: white;
+  position: relative;
 }
