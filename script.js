@@ -21,7 +21,7 @@ new Chart(ctx2, {
     labels: ["Thriving", "Moderate", "Surviving"],
     datasets: [
       {
-        data: [10, 40, 50],
+        data: [10, 35, 55],
         backgroundColor: [
           "rgba(75, 192, 192, 0.6)","rgba(255, 206, 86, 0.6)",
           "rgba(255, 99, 132, 0.6)"
