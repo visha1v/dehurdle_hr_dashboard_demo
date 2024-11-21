@@ -20,12 +20,21 @@ h2 {
   color: #333;
 }
 
+.report-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
 .report {
-  margin: 20px 0;
+  flex: 1 1 calc(50% - 20px);
+  max-width: calc(50% - 20px);
   background: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 canvas {
@@ -33,10 +42,16 @@ canvas {
   height: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .report {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
 footer {
   text-align: center;
   padding: 10px 0;
   background: #333;
   color: white;
-  position: relative;
 }
