@@ -77,11 +77,11 @@ footer {
 }
 
 .report h3 {
-  color: lightgrey;
+  color: grey;
 }
 
 .report ul li {
-  color: lightgrey;
+  color: grey;
 }
 
 @media screen and (max-width: 768px) {
