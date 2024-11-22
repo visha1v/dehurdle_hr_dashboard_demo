@@ -31,8 +31,6 @@ new Chart(ctx2, {
     ]
   },
   options: {
-    responsive: true,
-    maintainAspectRatio: true,
     plugins: {
       datalabels: {
         color: 'black', // Label color
@@ -78,8 +76,6 @@ new Chart(ctx4, {
     ]
   },
   options: {
-    responsive: true,
-    maintainAspectRatio: true,
     plugins: {
       datalabels: {
         color: 'black', // Label color
