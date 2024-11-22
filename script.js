@@ -6,7 +6,7 @@ new Chart(ctx1, {
     labels: ["Overthinker", "Distractor", "Pessimist", "Pleaser", "Fearful", "Comparer", "Hyper-Emotional", "Procastinator"],
     datasets: [
       {
-        label: "No. of emplyees with this wrecker",
+        label: "No. of employees",
         data: [50,23,31,26,15,46,38,41],
         backgroundColor: "rgba(75, 192, 192, 0.6)"
       }
