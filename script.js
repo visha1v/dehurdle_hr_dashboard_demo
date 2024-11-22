@@ -87,6 +87,17 @@ new Chart(ctx4, {
   },
   options: {
     responsive: true,
-    maintainAspectRatio: true
-  }
+    maintainAspectRatio: true,
+    plugins: {
+      datalabels: {
+        color: 'black', // Label color
+        font: {
+          size: 14, // Label font size
+          weight: 'bold'
+        },
+        formatter: (value, context) => `${value}%`, // Add percentage symbol
+      }
+    }
+  },
+  plugins: [ChartDataLabels]
 });
