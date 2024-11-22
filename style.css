@@ -10,12 +10,11 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* Space between the logo and the text */
 }
 
 header h1 .logo {
-  width: 240px; /* Adjust width */
-  height: 240px; /* Adjust height */
+  width: 200px; /* Adjust width */
+  height: 200px; /* Adjust height */
   object-fit: contain; /* Ensures the logo doesn't get distorted */
 }
 
