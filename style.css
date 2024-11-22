@@ -14,8 +14,8 @@ header h1 {
 }
 
 header h1 .logo {
-  width: 40px; /* Adjust width */
-  height: 40px; /* Adjust height */
+  width: 240px; /* Adjust width */
+  height: 240px; /* Adjust height */
   object-fit: contain; /* Ensures the logo doesn't get distorted */
 }
 
