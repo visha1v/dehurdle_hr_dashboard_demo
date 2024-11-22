@@ -23,13 +23,28 @@ new Chart(ctx2, {
       {
         data: [10, 35, 55],
         backgroundColor: [
-          "rgba(75, 192, 192, 0.6)","rgba(255, 206, 86, 0.6)",
+          "rgba(0, 128, 0, 0.6)","rgba(255, 255, 0, 0.6)",
           "rgba(255, 0, 0, 0.6)"
           
         ]
       }
     ]
-  }
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: {
+      datalabels: {
+        color: '#fff', // Label color
+        font: {
+          size: 14, // Label font size
+          weight: 'bold'
+        },
+        formatter: (value, context) => `${value}%`, // Add percentage symbol
+      }
+    }
+  },
+  plugins: [ChartDataLabels] // Enable the Data Labels plugin
 });
 
 const ctx3 = document.getElementById("dailyReport1").getContext("2d");
