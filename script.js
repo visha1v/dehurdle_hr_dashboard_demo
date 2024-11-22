@@ -36,8 +36,19 @@ new Chart(ctx2, {
   },
   options: {
     responsive: true,
-    maintainAspectRatio: true
-  }
+    maintainAspectRatio: true,
+    plugins: {
+      datalabels: {
+        color: 'black', // Label color
+        font: {
+          size: 14, // Label font size
+          weight: 'bold'
+        },
+        formatter: (value, context) => `${value}%`, // Add percentage symbol
+      }
+    }
+  },
+  plugins: [ChartDataLabels]
 });
 
 const ctx3 = document.getElementById("dailyReport1").getContext("2d");
