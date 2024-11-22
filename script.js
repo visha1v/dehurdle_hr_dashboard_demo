@@ -11,6 +11,10 @@ new Chart(ctx1, {
         backgroundColor: "rgba(75, 192, 192, 0.6)"
       }
     ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true
   }
 });
 
@@ -29,6 +33,10 @@ new Chart(ctx2, {
         ]
       }
     ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true
   }
 });
 
@@ -45,6 +53,10 @@ new Chart(ctx3, {
         fill: false
       }
     ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true
   }
 });
 
@@ -61,5 +73,9 @@ new Chart(ctx4, {
           "rgba(255, 206, 86, 0.6)"]
       }
     ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true
   }
 });
