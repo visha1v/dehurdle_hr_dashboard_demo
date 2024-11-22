@@ -76,6 +76,14 @@ footer {
   text-align: center;
 }
 
+.report h3 {
+  color: lightgrey;
+}
+
+.report ul li {
+  color: lightgrey;
+}
+
 @media screen and (max-width: 768px) {
   .report {
     flex: 1 1 100%;
