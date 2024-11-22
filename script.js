@@ -78,7 +78,7 @@ const ctx4 = document.getElementById("dailyReport2").getContext("2d");
 new Chart(ctx4, {
   type: "doughnut",
   data: {
-    labels: ["Happy", "Sad", "Angry", "Frustrated", "Depressed"],
+    labels: ["Happy", "Sad", "Angry", "Frustrated", "Calm"],
     datasets: [
       {
         data: [15,19,23,32,11],
