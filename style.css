@@ -33,6 +33,12 @@ h2 {
   justify-content: space-between;
 }
 
+.report canvas {
+  max-width: 300px; /* Adjust maximum width */
+  max-height: 300px; /* Adjust maximum height */
+  margin: 0 auto; /* Center the canvas */
+}
+
 .report {
   flex: 1 1 calc(50% - 20px);
   max-width: calc(50% - 20px);
