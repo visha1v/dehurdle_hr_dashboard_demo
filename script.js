@@ -38,6 +38,9 @@ new Chart(ctx2, {
     responsive: true,
     maintainAspectRatio: true,
     plugins: {
+      tooltip: {
+        enabled: false // Disables tooltips
+      },
       datalabels: {
         color: 'black', // Label color
         font: {
@@ -89,6 +92,9 @@ new Chart(ctx4, {
     responsive: true,
     maintainAspectRatio: true,
     plugins: {
+      tooltip: {
+        enabled: false // Disables tooltips
+      },
       datalabels: {
         color: 'black', // Label color
         font: {
