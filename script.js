@@ -35,7 +35,7 @@ new Chart(ctx2, {
     maintainAspectRatio: true,
     plugins: {
       datalabels: {
-        color: '#fff', // Label color
+        color: 'black', // Label color
         font: {
           size: 14, // Label font size
           weight: 'bold'
