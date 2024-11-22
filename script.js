@@ -76,5 +76,20 @@ new Chart(ctx4, {
           "rgba(255, 206, 86, 0.6)"]
       }
     ]
-  }
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    plugins: {
+      datalabels: {
+        color: 'black', // Label color
+        font: {
+          size: 14, // Label font size
+          weight: 'bold'
+        },
+        formatter: (value, context) => `${value}%`, // Add percentage symbol
+      }
+    }
+  },
+  plugins: [ChartDataLabels] // Enable the Data Labels plugin
 });
