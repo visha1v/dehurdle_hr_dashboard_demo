@@ -58,7 +58,7 @@ new Chart(ctx3, {
     labels: ["Monday", "Tueday", "Wednesday", "Thursday", "Friday", "Saturday", "Suday"],
     datasets: [
       {
-        label: "Department Focus Score",
+        label: "Focus Score",
         data: [45, 55, 49, 62, 68, 30, 38],
         borderColor: "rgba(75, 192, 192, 1)",
         fill: false
