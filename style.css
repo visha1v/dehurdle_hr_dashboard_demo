@@ -6,11 +6,17 @@ body {
   background: #f4f4f9;
 }
 
-header {
-  background: white; /* Primary Theme Color */
-  color: #D72B6A;
-  text-align: center;
-  padding: 10px 0;
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Space between the logo and the text */
+}
+
+header h1 .logo {
+  width: 40px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  object-fit: contain; /* Ensures the logo doesn't get distorted */
 }
 
 main {
